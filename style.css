@@ -1,0 +1,39 @@
+/* style.css */
+body {
+	background-color: #1e212d;
+	width: 0 auto;
+	font-family: sans-serif;
+}
+
+.col {
+	height: 100vh;
+	display: flex;
+	flex-flow: column;
+	justify-content: center;
+	align-items: center;
+}
+
+button {
+	padding: 0.5em;
+	font-size: 2rem;
+	border: 0;
+	height: 10vh;
+	font-weight: 900;
+}
+
+.dark {
+	background-color: #1e212d;
+	color: #faf3e0;
+}
+.light {
+	background-color: #faf3e0;
+	color: #1e212d;
+}
+
+.below {
+	background-color: #666;
+	font-weight: 900;
+	padding: 0.5em;
+	color: #faf3e0;
+	margin-top: 1em;
+}
